@@ -52,21 +52,21 @@ adding default users (remember to change ADMIN_ENCRYPTED_PASSWORD, NLP_ENCRYPTED
 
 *run Freeling instances (change the port parameter if necessary)*
 
-<code>analyze -f pt.cfg --nonumb --noloc --noner --nodict --outlv tagged --server --flush --port 50040
+<code>analyze -f pt.cfg --nonumb --noloc --noner --nodict --outlv tagged --server --flush --port 50040</code>
 
-analyze -f en.cfg --nonumb --noloc --noner --nodict --outlv tagged --server --flush --port 50050
+<code>analyze -f en.cfg --nonumb --noloc --noner --nodict --outlv tagged --server --flush --port 50050</code>
 
-analyze -f pt.cfg --outlv tagged --server --flush --port 50041
+<code>analyze -f pt.cfg --outlv tagged --server --flush --port 50041</code>
 
-analyze -f en.cfg --outlv tagged --server --flush --port 50051</code>
+<code>analyze -f en.cfg --outlv tagged --server --flush --port 50051</code>
 
 *run ERAS API*
 
-<code>gunicorn --chdir authentication -b 0.0.0.0:50000 --log-level debug run:app
+<code>gunicorn --chdir authentication -b 0.0.0.0:50000 --log-level debug run:app</code>
 
-gunicorn --chdir data -b 0.0.0.0:50001 --log-level debug run:app
+<code>gunicorn --chdir data -b 0.0.0.0:50001 --log-level debug run:app</code>
 
-gunicorn --chdir nlp -b 0.0.0.0:50002 --log-level debug run:app</code>
+<code>gunicorn --chdir nlp -b 0.0.0.0:50002 --log-level debug run:app</code>
 
 *run ERAS client*
 
