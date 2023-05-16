@@ -26,6 +26,10 @@ Nlp module has a configuration file located at `nlp/module/__init__.py`. All var
 
 Client module has a configuration file located at `client/js/config/constants.js`. You have to change *AUTHENTICATION_SERVER_URL* by the authentication module URL or IP followed by the port number, if necessary. Similarly, you have to modify *DATA_SERVER_URL*, specifying data module corresponding information. Remember as this is a JavaScript module, it is going to be executed at the client computer. Therefore, authentication module and data module need to be specified with an external IP address or URL in order to be accessed on web.
 
+Path MongoDB
+
+Data: C:\Program Files\MongoDB\Server\4.0\data\
+Log: C:\Program Files\MongoDB\Server\4.0\log\
 
 ## Config DB
 
