@@ -75,3 +75,7 @@ go to /client folder and run python3 -m http.server 80
 To check if everything is working properly, go to http://localhost, sign in using admin credentials and use the files contained in /samples folder to create a project and make some annotations
 
 Alternatively, if you want to run this project as a Linux service, you can use erasd script, located at the root of the project. In that file, you have to change PROJECT_PATH by the ERAS path at your computer, and VIRTUAL_ENV_PATH by the Python virtual environment path at your computer. In the script header, there are the instructions to install the script as a Linux service.
+
+MIT License
+
+Copyright (c) 2019 Jonatas Grosman
