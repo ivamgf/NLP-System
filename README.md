@@ -6,10 +6,14 @@ Eras: Improving the quality control in the annotation process for Natural Langua
 # INITIAL SETUP
 
 Install dependencies
+
 install MongoDB 4 (www.mongodb.com)
+
 install FreeLing (https://github.com/TALP-UPC/FreeLing)
+
 install Python 3 <= 3.8.x
 install Python package dependencies using requirements.txt file
+
 install Gunicorn (https://gunicorn.org/)
 
 ## Config variables
